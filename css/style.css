@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+body {margin: 0px; padding: 0px; box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6, a, p, span, strong, input, radio, select, checkbox, textarea, textfield, ul, li, ol {margin: 0px; padding: 0px;}
+
+a {text-decoration: none;}
+img {border: none}
+a,img {border: none}
+
+
+header, hgroup, nav, article, aside, section, figure, figcaption, audio, video, footer {margin: 0px; padding: 0px; display: block;}
+
+
+/******************yoga start here*********************/
+
+
+.maldala1 {width: 100vw; height:100vh;display: flex; justify-content: center; align-items: center;}
+
+.maldala2 {width: 1000px; height: 1000px;  background: url(../images/mandala5.png) center center no-repeat;   animation:mandala 2s infinite  linear; background-size: 80%; }
+
+.yoga {width: 100vw; height: 100vh; display: flex; justify-content: center; align-items: center;position: fixed;  }
+
+
+.yoga img  {text-align: center; animation-name: yoga; animation-duration:3s ; animation-timing-function: ; animation-delay:0 ; animation-iteration-count:infinite; ; animation-direction:alternate; }
+
+
+
+@keyframes yoga {
+
+0% {transform:translateY(-100px);}
+100% {transform:translateY(100px);}
+
+}
+
+@keyframes mandala {
+
+
+
+100% {transform:rotate(360deg)}
+
+
+}
+
+/******************yoga end here*********************/
+
+
+/******************animation start here*********************/
+
+/*.box{  width: 100vw; height:100vh; justify-content: center; display:flex; align-items: center }
+.box2 { width: 300px; height:300px; line-height: 300px; color: #222; font-size: 30px; text-align: center; background:#f4f4f4;}*/
+
+/******************animation end here*********************/
